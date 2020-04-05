@@ -15,8 +15,7 @@ steps:
     versionSpec: '>= 2.5'
 
 - script: |
-    cd /
-    cd swapi/
+    ls
     gem install bundler
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
