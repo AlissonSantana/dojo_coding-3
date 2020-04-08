@@ -20,7 +20,4 @@ steps:
     gem install bundler
     bundle install --retry=3 --jobs=4
     cucumber
-  displayName: 'bundle install'
-
-# - script: cucumber
-#   # displayName: 'bundle exec rake'
+  displayName: 'execute project'
