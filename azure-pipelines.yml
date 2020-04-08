@@ -16,7 +16,7 @@ steps:
 
 - script: |
     ls
-    cd swapi
+    cd azure_website
     gem install bundler
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
